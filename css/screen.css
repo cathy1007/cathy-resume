@@ -1,0 +1,217 @@
+/*global css*/
+body {
+	font-family: "微软雅黑", "新宋体";
+}
+p {
+	color: #808080;
+	line-height: 1.725em;
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+.onecol, .twocol, .threecol, fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
+	float: left;
+	min-height: 1px;
+	}
+.onecol {
+	width: 4.85%;
+}
+.twocol {
+	width: 13.45%;
+}
+.threecol {
+	width: 22.05%;
+	margin-right: 3.8%;
+}
+.fourcol {
+	width: 30.75%;
+}
+.fivecol {
+	width: 39.45%;
+	margin-right: 3.8%;
+}
+.sixcol {
+	width: 48%;
+}
+.sevencol {
+	width: 56.75%;
+}
+.eightcol {
+	width: 65.4%;
+	padding: 0;
+}
+.ninecol {
+	width: 74.05%;
+ :1px solid yellow;
+}
+.tencol {
+	width: 82.7%;
+}
+.elevencol {
+	width: 91.35%;
+}
+.twelvecol {
+	width: 100%;
+}
+/*container css*/
+div.container {
+	width: 100%;
+	max-width: 1030px;
+	min-width: 755px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 0px;
+}
+/*nav css*/
+.nav {
+	float: right;
+	text-align: left;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+	font-size: 1.325em;
+	float: right;
+}
+.nav ul li {
+	float: left;
+	padding: .525em 0 0 1.0em;
+}
+.nav ul li a {
+	padding: 0.125em 0.175em;
+	display: lblock;
+}
+.nav ul li a.current {
+	background: #000;
+	color: #fff;
+}
+.nav ul li a:hover {
+	text-decoration: underline;
+	color: #C36;
+}
+.nav ul li.social {
+	margin-left: .225em;
+	padding: 0;
+	margin-top: 0.525em;
+}
+.nav ul li a.webchat {
+	text-indent: -9999px;
+	display: block;
+	height: 29px;
+	width: 35px;
+	margin: 0;
+	padding: 0;
+	background: url(../images/webchat.png)left top no-repeat;
+}
+
+
+/*banner css*/
+div.banner {
+	padding: 2.4em 0;
+	line-height: 1.65em;
+	background: url(images/border.png) bottom repeat-x;
+}
+.logo {
+	text-align: left;
+}
+.circle-img {
+	width: 500px;
+	height: 375px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.logo div.fivecol img:nth-of-type(1) {
+	width: 45%;
+	float: left;
+	margin-right: 10px;
+	border-right: 2px solid #808080;
+}
+.logo div.fivecol img:nth-of-type(2) {
+	width: 40%;
+	float: left;
+	margin-right: 10px;
+}
+
+
+/*branding  css*/
+div.branding {
+	margin-bottom: 2.4em;
+}
+div.branding .sevencol img {
+	float: left;
+	margin: 0;
+}
+div.branding .fivecol {
+	padding-top: 3.5em;
+}
+div.branding .fivecol img {
+	line-height: 1.455em;
+	padding-left: 14.613%;
+}
+div.branding .fivecol p {
+	line-height: 1.455em;
+	padding-left: 21.613%;
+}
+
+/*intro css*/
+div.intro {
+	background: url(../images/border.png)top repeat-x;
+	padding: 2.2em 0;
+}
+div.intro img {
+	float: left;
+	margin-right: 20px;
+	padding: 2.2em;
+	
+}
+
+/*port css*/
+div.first {
+	padding-top: 3.1em;
+	background: url(../images/port-line.png) top center no-repeat;
+}
+div.port {
+	padding-bottom: 36px;
+}
+div.port .description {
+	padding: .35em 0 0 0;
+}
+div.port img:hover{
+	border:2px solid #99C;}
+div.port .description h2 {
+	font-size: 1.3125em;
+	padding: 0.23em 0 0.1em;
+}
+div.port .description h3 {
+	font-size: 0.875em;
+	color: #fff;
+	background: #000;
+	display: inline;
+	padding: 2px 4px;
+}
+div.port .description p {
+	font-size: 0.875em;
+	line-height: 1.45em;
+	padding-bottom: 1.5em;
+}
+
+
+/*about css*/
+div#about {
+	padding-bottom: 2.4em;
+}
+div#about p span {
+	float: left;
+	margin-top: 3px;
+	width: 29px;
+	text-indent: -9999px;
+	background: url(../image/j.png) left top no-repeat;
+	height: 33px;
+	 :1px solid red;
+}
+div.me-img {
+	width: 260px;
+	height: 260px;
+	border: 1px solid #f5f5f5;
+	border-radius: 50%;
+	overflow: hidden;
+}

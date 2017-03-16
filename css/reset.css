@@ -1,0 +1,28 @@
+
+
+html,body,div,h1,h2,h3,h4,h5,h6,p.a,ul,ol,li,form,fieldset,input,textarea,bloquote,table, caption, tbody, tfoot, thead, tr, th, td{
+	margin:0;
+	padding:0;
+	border:0;}
+table{
+	border-collapse:seperate;
+	border-spacing:0;}
+ol,ul{
+	list-style:none;}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;}
+caption,th,td{
+	text-align:left;
+	font-weight:normal;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+input{
+	vertical-align:middle;}
+img{
+	height:auto;
+	max-width:100%;}
+a{
+    text-decoration:none;}

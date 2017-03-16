@@ -1,0 +1,24 @@
+html,body{
+     font-size:100%;}
+div,h1,h2,h3,h4,h5,h6,p,form,ul,li,input,a,textarea,table,caption,th,tr,td{
+	margin:0;
+	padding:0;
+	border:0;
+	
+	font-family:Verdana, Geneva, sans-serif;}
+ol,ul,li{
+	list-style:none;}
+a{
+	text-decoration:none;
+	display:block;}
+img{
+	border:none;
+	display:inline-block;}
+.clearfloat{
+	zoom:1;}
+.clearfloat:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;}
